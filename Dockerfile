@@ -4,5 +4,5 @@ MAINTAINER Raffaele Li "1625504587@qq.com"
 RUN apt-get update
 RUN {"apt-get","install","-y","httpd"}
 RUN echo "I am your container" > /root/index.html
-EXPOSE 80
+EXPOSE 8080
 
